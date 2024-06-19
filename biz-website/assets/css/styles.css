@@ -36,7 +36,7 @@ header {
     display: inline-block;
 }
 .logo-box {
-    margin: 20px;
+    margin: 20px 20px 20px 45px;
 }
 .logo-box img {
     border: none;
@@ -44,7 +44,7 @@ header {
 }
 .navbar {
     float: right;
-    margin: 20px;
+    margin: 20px 45px 20px 20px;
 }
 .navbar ul {
     list-style: none;
@@ -70,11 +70,34 @@ header {
 /* MAIN CONTENT */
 
 section {
-    margin: 30px;
+    margin: 45px;
 }
 
 /* FOOTER */
 
 footer {
-    margin: 30px;
+    background-color: rgb(34, 34, 34);
+    display: inline-block;
+}
+.footer-box {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
+    margin: 45px;
+}
+.footer-box div {
+    color: rgb(206, 206, 206);
+    font-size: 0.9rem;
+}
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+}
+.copyright {
+    grid-column: 1 / span 4;
+    grid-row: 2;
+    border-top: 2px solid rgb(75, 75, 75);
+    font-size: 0.8rem;
+    text-align: right;
+    margin-top: 40px;
+    padding: 5px 0;
 }
