@@ -5,6 +5,9 @@ body {
     margin: 0;
     padding: 0;
 }
+* {
+    box-sizing: border-box;
+}
 a {
     color: rgb(0, 61, 71);
     text-decoration: none;
@@ -24,6 +27,8 @@ a:hover, a:active {
     gap: 15px;
 }
 
+/* HEADER */
+
 header {
     background-color: white;
 }
@@ -34,7 +39,8 @@ header {
     margin: 20px;
 }
 .logo-box img {
-    display: block;
+    border: none;
+    vertical-align: bottom;
 }
 .navbar {
     float: right;
@@ -43,15 +49,31 @@ header {
 .navbar ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 .navbar li {
     display: inline-block;
     padding: 5px;
 }
+.nav-social-button {
+    background-color: rgb(43, 175, 43);
+    border: 2px solid rgb(43, 175, 43);
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 8px 25px;
+}
+.nav-social-button:hover {
+    background-color: aliceblue;
+    color: rgb(0, 129, 0);
+}
+
+/* MAIN CONTENT */
 
 section {
     margin: 30px;
 }
+
+/* FOOTER */
 
 footer {
     margin: 30px;
