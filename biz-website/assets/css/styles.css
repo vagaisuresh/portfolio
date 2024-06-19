@@ -5,6 +5,17 @@ body {
     margin: 0;
     padding: 0;
 }
+a {
+    color: rgb(0, 61, 71);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(0, 61, 71);
+}
+a:hover, a:active {
+    color: rgba(0, 61, 71, 0.7);
+    border-bottom: 2px solid rgb(108, 163, 163);
+}
 
 .container {
     background-color: antiquewhite;
@@ -14,7 +25,28 @@ body {
 }
 
 header {
-    margin: 30px;
+    background-color: white;
+}
+.header-box div {
+    display: inline-block;
+}
+.logo-box {
+    margin: 20px;
+}
+.logo-box img {
+    display: block;
+}
+.navbar {
+    float: right;
+    margin: 20px;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+.navbar li {
+    display: inline-block;
+    padding: 5px;
 }
 
 section {
