@@ -92,10 +92,16 @@ footer {
     list-style: none;
     padding: 0;
 }
+.footer-box a {
+    color: rgb(160, 153, 153);
+}
+.footer-box a:hover {
+    border-bottom: 1px solid rgb(59, 59, 59);
+}
 .copyright {
     grid-column: 1 / span 4;
     grid-row: 2;
-    border-top: 2px solid rgb(75, 75, 75);
+    border-top: 1px solid rgba(75, 75, 75, 0.4);
     font-size: 0.8rem;
     text-align: right;
     margin-top: 40px;
