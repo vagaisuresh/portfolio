@@ -14,8 +14,13 @@ body {
     box-sizing: border-box;
 }
 a {
+    color: #d3d0d0;
     text-decoration: none;
 }
+a:hover {
+    color: #0cafff;
+}
+
 .bg-main {
     background-color: #F0F8FF;
 }
@@ -48,6 +53,7 @@ footer {
     color: #d3d0d0;
 }
 .footer-info {
+    font-size: 1rem;
     padding: 80px 15px 50px 15px;
 }
 .footer-info div {
